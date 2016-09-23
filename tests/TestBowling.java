@@ -7,19 +7,16 @@ public class TestBowling {
 	@Test
 	public void testIsSpare() {
 		Frame test = new Frame(5,5);
-		int score = test.score();
 		assertTrue(test.isSpare());
 	}
     @Test
     public void testIsStrike(){
-    	Frame test = new Frame(10,0);
-    	int score = test.score();
+    	Frame test = new Frame(10,0);  
     	assertTrue(test.isStrike());
     }
     @Test
     public void testBasicCalc(){
     	Frame test = new Frame(3,4);
-    	int score = test.score();
     	assertTrue(test.score()==7);
     }
 }

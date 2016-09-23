@@ -44,3 +44,10 @@ RefactoringAction 1474632091658 TestBowling.java ADD void testIsStrike()/2 METHO
 RefactoringAction 1474632097671 TestBowling.java RENAME testIsStrike()/2=>void testB() METHOD
 RefactoringAction 1474632100685 TestBowling.java RENAME testB()=>void testBasicCalc() METHOD
 EditAction 1474632119741 TestBowling.java 538 3 9 3
+UnitTestCaseAction 1474632121078 TestBowling.java OK
+UnitTestSessionAction 1474632121078 TestBowling.java OK
+UnitTestCaseAction 1474632132925 TestBowling.java OK
+UnitTestSessionAction 1474632132926 TestBowling.java OK
+UnitTestCaseAction 1474632141047 TestBowling.java OK
+UnitTestSessionAction 1474632141047 TestBowling.java OK
+EditAction 1474632364262 BowlingGame.java 666 4 2 0
