@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.util.Iterator;
+
 import java.util.List;
 
 //Finish time:
@@ -28,10 +28,10 @@ public class BowlingGame {
 		//to be implemented: should return game score
 		int totalScore = 0;
 	for(int i=0; i<frames.size() ; i++){
-	   if(frames.get(i).isSpare()&&i<9){
+	   if(frames.get(i).isSpare()&&i<9){ // i<9 for last throw
 		totalScore += frames.get(i).score();
 		totalScore +=frames.get(i+1).getFirstThrow();
-	   }else if(frames.get(i).isStrike()&&i<9){
+	   }else if(frames.get(i).isStrike()&&i<9){ // i<9 for last throw
 			totalScore += frames.get(i).score();
 			totalScore +=frames.get(i+1).score();
 	   }else {
