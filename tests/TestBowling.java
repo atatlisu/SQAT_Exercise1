@@ -8,7 +8,7 @@ public class TestBowling {
 	public void testIsSpare() {
 		Frame test = new Frame(5,5);
 		int score = test.score();
-		assertTrue(test.score()==10);
+		assertTrue(test.isSpare());
 	}
 
 }
