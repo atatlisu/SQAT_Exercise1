@@ -47,7 +47,8 @@ public class TestBowling {
     	test.addFrame(new Frame (10,0));
     	test.addFrame(new Frame(2,8));
     	test.addFrame(new Frame(6,0));
-    	assertTrue(test.score()==133);
+    	
+    	assertTrue(test.score()==127);
     }
 }
 
