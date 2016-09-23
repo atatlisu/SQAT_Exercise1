@@ -20,7 +20,7 @@ public class BowlingGame {
 	
 	// Sets the bonus throws at the end of the game
 	public void setBonus(int firstThrow, int secondThrow) {
-		frames.add(new Frame(firstThrow,secondThrow));
+		frames.add(new Frame(firstThrow,0));
 	}
 	
 	// Returns the game score
@@ -28,10 +28,10 @@ public class BowlingGame {
 		//to be implemented: should return game score
 		int totalScore = 0;
 	for(int i=0; i<frames.size() ; i++){
-	   if(frames.get(i).isSpare()){
+	   if(frames.get(i).isSpare()&&i<9){
 		totalScore += frames.get(i).score();
 		totalScore +=frames.get(i+1).getFirstThrow();
-	   }else if(frames.get(i).isStrike()){
+	   }else if(frames.get(i).isStrike()&&i<9){
 			totalScore += frames.get(i).score();
 			totalScore +=frames.get(i+1).score();
 	   }else {
