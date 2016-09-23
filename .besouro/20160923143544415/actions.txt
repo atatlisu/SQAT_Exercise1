@@ -115,3 +115,6 @@ UnitTestCaseAction 1474635250745 TestBowling.java OK
 UnitTestSessionAction 1474635250745 TestBowling.java OK
 RefactoringAction 1474635353374 BowlingGame.java REMOVE import java.util.Iterator IMPORT
 EditAction 1474635406204 TestBowling.java 1432 6 27 6
+UnitTestCaseAction 1474635406473 TestBowling.java OK
+UnitTestSessionAction 1474635406473 TestBowling.java OK
+EditAction 1474635555026 TestBowling.java 1504 6 27 6

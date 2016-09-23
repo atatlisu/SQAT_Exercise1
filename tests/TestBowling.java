@@ -4,6 +4,7 @@ import org.junit.Test;
 
 public class TestBowling {
 
+	// Tests for Frame.java
 	@Test
 	public void testIsSpare() {
 		Frame test = new Frame(5,5);
@@ -19,6 +20,8 @@ public class TestBowling {
     	Frame test = new Frame(3,4);
     	assertTrue(test.score()==7);
     }
+   
+    // Tests for BowlingGame.java
     @Test
     public void testSpareCalc(){
     	BowlingGame test = new BowlingGame();
@@ -49,5 +52,6 @@ public class TestBowling {
     	test.addFrame(new Frame(6,0));// bonus frame
     	assertTrue(test.score()==133);
     }
+    
 }
 
