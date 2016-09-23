@@ -1,9 +1,8 @@
 import java.util.ArrayList;
-
 import java.util.List;
 
-//Finish time:
-//ID:
+//Finish time: 15.59
+//ID: 160
 
 public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
@@ -28,10 +27,10 @@ public class BowlingGame {
 		//to be implemented: should return game score
 		int totalScore = 0;
 	for(int i=0; i<frames.size() ; i++){
-	   if(frames.get(i).isSpare()&&i<9){ // i<9 for last throw
+	   if(frames.get(i).isSpare()&&i<9){ // i<9 for last throw if there is a bonus
 		totalScore += frames.get(i).score();
 		totalScore +=frames.get(i+1).getFirstThrow();
-	   }else if(frames.get(i).isStrike()&&i<9){ // i<9 for last throw
+	   }else if(frames.get(i).isStrike()&&i<9){ // i<9 for last throw if there is a bonus
 			totalScore += frames.get(i).score();
 			totalScore +=frames.get(i+1).score();
 	   }else {
