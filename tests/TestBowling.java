@@ -6,11 +6,9 @@ public class TestBowling {
 
 	@Test
 	public void testIsSpare() {
-		BowlingGame test = new BowlingGame();
-		int firstThrow=5;
-		int secondThow=5;
+		Frame test = new Frame(5,5);
 		int score = test.score();
-		assertTrue(test.score()==0);
+		assertTrue(test.score()==10);
 	}
 
 }
