@@ -95,3 +95,4 @@ RefactoringAction 1474634626087 TestBowling.java RENAME testStrikeCalc()/2=>void
 RefactoringAction 1474634628099 TestBowling.java RENAME testE()=>void testExample() METHOD
 RefactoringAction 1474634634111 TestBowling.java RENAME testExample()=>void testGivenExample() METHOD
 EditAction 1474634752719 TestBowling.java 1380 6 26 6
+EditAction 1474634770066 TestBowling.java 1418 6 27 6
