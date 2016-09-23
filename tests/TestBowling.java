@@ -33,6 +33,20 @@ public class TestBowling {
     	test.addFrame(new Frame(5,4));
     	assertTrue(test.score()==28);
     }
-
+    @Test
+    public void testGivenExample(){
+    	BowlingGame test = new BowlingGame();
+    	test.addFrame(new Frame (1,4));
+    	test.addFrame(new Frame(4,5));
+    	test.addFrame(new Frame (6,4));
+    	test.addFrame(new Frame(5,5));
+    	test.addFrame(new Frame (10,0));
+    	test.addFrame(new Frame(0,1));
+    	test.addFrame(new Frame (7,3));
+    	test.addFrame(new Frame(6,4));
+    	test.addFrame(new Frame (10,0));
+    	test.addFrame(new Frame(2,8));
+    	assertTrue(test.score()==28);
+    }
 }
 
