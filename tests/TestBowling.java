@@ -22,7 +22,7 @@ public class TestBowling {
     @Test
     public void testSpareCalc(){
     	BowlingGame test = new BowlingGame();
-    	test.addFrame(new Frame(4,6));
+    	test.addFrame(new Frame(6,4));
     	test.addFrame(new Frame(8,0));
         assertTrue(test.score()==26);	
     }
