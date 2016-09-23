@@ -62,3 +62,7 @@ CompilationAction 1474633400553 BowlingGame.java
 CompilationAction 1474633404740 BowlingGame.java
 CompilationAction 1474633404901 BowlingGame.java
 EditAction 1474633410274 BowlingGame.java 708 4 3 0
+RefactoringAction 1474633438686 BowlingGame.java REMOVE import java.util.Iterator IMPORT
+RefactoringAction 1474633524739 BowlingGame.java ADD import java.util.Iterator IMPORT
+RefactoringAction 1474633526251 BowlingGame.java ADD Iterator it FIELD
+EditAction 1474633760228 BowlingGame.java 906 4 4 0
