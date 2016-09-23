@@ -66,3 +66,8 @@ RefactoringAction 1474633438686 BowlingGame.java REMOVE import java.util.Iterato
 RefactoringAction 1474633524739 BowlingGame.java ADD import java.util.Iterator IMPORT
 RefactoringAction 1474633526251 BowlingGame.java ADD Iterator it FIELD
 EditAction 1474633760228 BowlingGame.java 906 4 4 0
+RefactoringAction 1474633780087 TestBowling.java ADD void test FIELD
+RefactoringAction 1474633785593 TestBowling.java RENAME test=>void testS FIELD
+RefactoringAction 1474633789102 TestBowling.java RENAME testS=>void testSpareCalc FIELD
+RefactoringAction 1474633790112 TestBowling.java RENAME testSpareCalc=>void testSpareCalc() METHOD
+EditAction 1474633953959 TestBowling.java 661 4 10 4

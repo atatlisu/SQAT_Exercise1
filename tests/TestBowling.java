@@ -19,4 +19,13 @@ public class TestBowling {
     	Frame test = new Frame(3,4);
     	assertTrue(test.score()==7);
     }
+    @Test
+    public void testSpareCalc(){
+    	BowlingGame test = new BowlingGame();
+    	test.addFrame(new Frame(4,6));
+    	test.addFrame(new Frame(8,2));
+        assertTrue(test.score()==18);	
+    }
+
 }
+
