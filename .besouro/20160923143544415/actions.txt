@@ -38,3 +38,9 @@ RefactoringAction 1474632020897 TestBowling.java RENAME test=>void testIs FIELD
 RefactoringAction 1474632022912 TestBowling.java RENAME testIs=>void testIsStrike FIELD
 RefactoringAction 1474632024422 TestBowling.java RENAME testIsStrike=>void testIsStrike() METHOD
 EditAction 1474632079415 TestBowling.java 384 2 6 2
+UnitTestCaseAction 1474632081021 TestBowling.java OK
+UnitTestSessionAction 1474632081021 TestBowling.java OK
+RefactoringAction 1474632091658 TestBowling.java ADD void testIsStrike()/2 METHOD
+RefactoringAction 1474632097671 TestBowling.java RENAME testIsStrike()/2=>void testB() METHOD
+RefactoringAction 1474632100685 TestBowling.java RENAME testB()=>void testBasicCalc() METHOD
+EditAction 1474632119741 TestBowling.java 538 3 9 3

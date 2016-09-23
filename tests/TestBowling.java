@@ -16,4 +16,10 @@ public class TestBowling {
     	int score = test.score();
     	assertTrue(test.isStrike());
     }
+    @Test
+    public void testBasicCalc(){
+    	Frame test = new Frame(3,4);
+    	int score = test.score();
+    	assertTrue(test.score()==7);
+    }
 }
