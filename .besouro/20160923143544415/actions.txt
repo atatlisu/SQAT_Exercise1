@@ -51,3 +51,14 @@ UnitTestSessionAction 1474632132926 TestBowling.java OK
 UnitTestCaseAction 1474632141047 TestBowling.java OK
 UnitTestSessionAction 1474632141047 TestBowling.java OK
 EditAction 1474632364262 BowlingGame.java 666 4 2 0
+CompilationAction 1474632364471 BowlingGame.java
+CompilationAction 1474632364472 BowlingGame.java
+RefactoringAction 1474632821715 BowlingGame.java ADD iterator it FIELD
+RefactoringAction 1474632839247 BowlingGame.java REMOVE BowlingGame() METHOD
+RefactoringAction 1474632840264 BowlingGame.java ADD BowlingGame() METHOD
+RefactoringAction 1474632865000 BowlingGame.java ADD import java.util.Iterator IMPORT
+RefactoringAction 1474633395595 BowlingGame.java REMOVE it FIELD
+CompilationAction 1474633400553 BowlingGame.java
+CompilationAction 1474633404740 BowlingGame.java
+CompilationAction 1474633404901 BowlingGame.java
+EditAction 1474633410274 BowlingGame.java 708 4 3 0
