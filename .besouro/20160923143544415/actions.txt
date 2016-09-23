@@ -9,3 +9,6 @@ RefactoringAction 1474631598544 TestBowling.java RENAME test()=>void testIs() ME
 RefactoringAction 1474631603060 TestBowling.java RENAME testIs()=>void testIsS() METHOD
 RefactoringAction 1474631604073 TestBowling.java RENAME testIsS()=>void testIsSpare() METHOD
 EditAction 1474631767683 TestBowling.java 285 1 5 1
+UnitTestCaseAction 1474631773318 TestBowling.java FAIL
+UnitTestSessionAction 1474631773321 TestBowling.java FAIL
+EditAction 1474631821446 TestBowling.java 284 1 5 1

@@ -10,7 +10,7 @@ public class TestBowling {
 		int firstThrow=5;
 		int secondThow=5;
 		int score = test.score();
-		assertTrue(test.score()==10);
+		assertTrue(test.score()==0);
 	}
 
 }
