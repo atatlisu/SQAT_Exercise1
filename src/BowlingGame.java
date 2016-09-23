@@ -9,7 +9,7 @@ public class BowlingGame {
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
-	Iterator it = frames.iterator();
+	
 	public BowlingGame(){}
 	
 	// adds a frame to the game
@@ -26,15 +26,20 @@ public class BowlingGame {
 	// Returns the game score
 	public int score(){
 		//to be implemented: should return game score
-		while(it.hasNext()){
-			Frame a = (Frame) it.next(); 
-			if(a.isSpare()){
-				Frame b = (Frame) it.next();
-				return a.score() + b.getFirstThrow();
-			}
+		int totalScore = 0;
+	for(int i=0; i<frames.size() ; i++){
+	   if(frames.get(i).isSpare()){
+		totalScore += frames.get(i).score();
+		totalScore +=frames.get(i+1).getFirstThrow();
+	   }else if(frames.get(i).isStrike()){
+			totalScore += frames.get(i).score();
+			totalScore +=frames.get(i+1).score();
+	   }else {
+		   totalScore += frames.get(i).score();
+	   }
 			
-		}
-		return 0;
+	}	
+		return totalScore;
 		
 	}
 }

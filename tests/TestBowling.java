@@ -24,7 +24,7 @@ public class TestBowling {
     	BowlingGame test = new BowlingGame();
     	test.addFrame(new Frame(4,6));
     	test.addFrame(new Frame(8,0));
-        assertTrue(test.score()==18);	
+        assertTrue(test.score()==26);	
     }
 
 }
