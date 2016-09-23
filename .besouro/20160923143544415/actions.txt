@@ -83,3 +83,8 @@ EditAction 1474634458546 TestBowling.java 661 4 10 4
 UnitTestCaseAction 1474634459953 TestBowling.java OK
 UnitTestSessionAction 1474634459953 TestBowling.java OK
 EditAction 1474634488500 TestBowling.java 661 4 10 4
+UnitTestCaseAction 1474634490999 TestBowling.java OK
+UnitTestSessionAction 1474634491000 TestBowling.java OK
+RefactoringAction 1474634504670 TestBowling.java ADD void test FIELD
+RefactoringAction 1474634509687 TestBowling.java RENAME test=>void testStrikeCalc() METHOD
+EditAction 1474634600511 TestBowling.java 870 5 14 5

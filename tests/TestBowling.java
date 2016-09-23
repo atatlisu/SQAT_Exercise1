@@ -26,6 +26,13 @@ public class TestBowling {
     	test.addFrame(new Frame(8,0));
         assertTrue(test.score()==26);	
     }
+    @Test
+    public void testStrikeCalc(){
+    	BowlingGame test = new BowlingGame();
+    	test.addFrame(new Frame (10,0));
+    	test.addFrame(new Frame(5,4));
+    	assertTrue(test.score()==28);
+    }
 
 }
 
