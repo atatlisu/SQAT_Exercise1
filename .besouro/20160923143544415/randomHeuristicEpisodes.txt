@@ -1,3 +1,5 @@
 1474631822711 test-last 1 1278 false
 1474631882265 regression 1 0 false
 1474631935832 refactoring 1A 30 false
+1474631983882 refactoring 2A 33 true
+1474631988997 regression 1 0 true
